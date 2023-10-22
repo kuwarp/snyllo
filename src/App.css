@@ -1,0 +1,75 @@
+.text-gradient{
+  background: linear-gradient(345deg,black 34%,white );
+}
+.homeTwo {
+  display: flex;
+  flex-direction: column !important;
+}
+
+/* ParallaxComponent.css */
+
+.parallax-container {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+  perspective: 1px;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff; /* Adjust text color */
+  padding: 100px;
+}
+
+.parallax-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 10%;
+  pointer-events: none;
+}
+
+.parallax-image img {
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%) scale(1.2);
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ParallaxComponent.css */
+
+
+
+/* ParallaxComponent.css */
+
+.parallax-containerO {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: scroll;
+}
+
+.parallax-containerO::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/images/art1-bg.png');
+  background-size: cover;
+  background-position: center;
+  transform: translateZ(0);
+  z-index: -999;
+}
+
+.parallax-contentO {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff; /* Adjust text color */
+  padding: 100px;
+}
