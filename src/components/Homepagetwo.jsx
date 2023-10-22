@@ -1,6 +1,5 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
-import SlpitOne from './SplitSection'
 const Homepagetwo = ({column , teamStyle}) => {
     const teamData =[  
         {

@@ -1,9 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-// import Logo from "../assets/images/logo/doob.svg";
 import footerOne from "./footerOne.json";
 import ScrollTop from "./ScrollTop";
-const footerIntem =  footerOne[0];
 const footerIntemOne =  footerOne[1];
 const footerIntemTwo =  footerOne[2];
 const footerIntemThree =  footerOne[3];

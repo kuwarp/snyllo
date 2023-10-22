@@ -1,7 +1,5 @@
 import React from 'react'
-import { FiArrowRight } from "react-icons/fi";
 import Navbartwo from './Navbartwo';
-import ScrollTop from '../common/ScrollTop';
 import TimelineTwo from '../common/Timeline'
 import ScrollAnimation from "react-animate-on-scroll";
 import Homepagetwo from './Homepagetwo';

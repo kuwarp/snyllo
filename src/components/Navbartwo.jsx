@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { AlertTwoTone } from '@ant-design/icons';
 const Navbartwo = () => {
   return (
     <div className='position-relative'>

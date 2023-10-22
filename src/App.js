@@ -1,12 +1,11 @@
 import './App.css';
 import {Route,HashRouter as Router,Routes} from 'react-router-dom';
 import './assets/scss/style.scss';
-import Navbar from'./components/Navbar'
 import Homepage from './components/Homepage'
-import FooterOne from './common/Footer';
+
 function App() {
   return (
-   <main className='page-wrapper' >
+   <main className='page-wrapper container' >
     {/* <Navbar btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent"/> */}
 
     <Router><Routes>
