@@ -5,7 +5,7 @@ import Homepage from './components/Homepage'
 
 function App() {
   return (
-   <main className='page-wrapper container' >
+   <main className='page-wrapper ' >
     {/* <Navbar btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent"/> */}
 
     <Router><Routes>
